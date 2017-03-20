@@ -1,0 +1,94 @@
+html{overflow-y: hidden;}
+.containerZ .banfree {
+  height: 6%;
+}
+.banZ {
+  width: 1200px;
+  height: 700px;
+  border: 1px solid transparent;
+  margin: 0 auto;
+  position: relative;
+}
+.banZ img {
+  float: right;
+  margin-top: 100px;
+}
+.banZ .banner_1 {
+  position: absolute;
+  bottom: 20px;
+  left: 500px;
+}
+.ban_con {
+  width: 500px;
+  height: 300px;
+  margin-top: 180px;
+  margin-left: 60px;
+}
+.ban_con ul {
+  list-style: none;
+  font-size: 20px;
+}
+.ban_con ul li {
+  margin-bottom: 20px;
+}
+.last {
+  text-align: center;
+}
+.last h1 {
+  font-weight: bold;
+  font-size: 48px;
+  margin-top: -50px;
+}
+.last h1 span {
+  color: red;
+}
+.last .last_con {
+  width: 1206px;
+  height: 600px;
+  margin: 0 auto;
+}
+.last .last_con .last_con1 {
+  width: 400px;
+  display: inline-block;
+  height: 600px;
+}
+.last .last_con .last_con2 {
+  width: 400px;
+  height: 600px;
+  display: inline-block;
+}
+.last .last_con .last_con3 {
+  width: 400px;
+  height: 600px;
+  display: inline-block;
+}
+.last .last_con .last_con4 {
+  width: 400px;
+  height: 280px;
+  display: inline-block;
+  margin-bottom: 5px;
+}
+.last .last_con .last_con4 span:first-child {
+  display: inline-block;
+  font-size: 60px;
+  font-weight: bold;
+  width: 60px;
+  height: 60px;
+  color: #666666;
+}
+.last .last_con .last_con4 span:nth-child(2) {
+  display: inline-block;
+  font-size: 28px;
+  width: 150px;
+  height: 60px;
+}
+.last .last_con .last_con4 span:nth-child(3) {
+  display: inline-block;
+  margin-left: 80px;
+  width: 240px;
+  height: 24px;
+  line-height: 24px;
+}
+.banner_11 {
+  margin: 0 auto 50px;
+}

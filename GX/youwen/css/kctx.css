@@ -1,0 +1,12 @@
+body{overflow: hidden;}
+.banfree{height: 6%;}
+.containerK{width: 1200px;height: 300px;margin: 80px auto 150px;}
+.containerK li{float: left;list-style: none;margin-right: 20px;}
+.containerK a{display: block;}
+.con_title{margin-top: -350px;opacity: .8;}
+.containerK_a1{width: 260px;height: 300px;background-image: url(../img/subject/169069418439903710.png);background-size: cover;margin-left: 100px;opacity: 0.5;}
+.containerK_a2{width: 350px;height: 400px;background-image: url(../img/subject/907809702376063297.png);background-size: cover;opacity: .7;}
+.containerK_a3{width: 260px;height: 300px;background-image: url(../img/subject/868063232089709408.png);background-size: cover;opacity: 0.5;}
+.containerK_free{margin: 0 auto -50px;opacity: .8;}
+.kecheng .con_titleK{margin-top: -150px;}
+.empty{height: 160px;}

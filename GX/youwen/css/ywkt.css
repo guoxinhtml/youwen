@@ -1,0 +1,66 @@
+.containerY {
+  width: 100%;
+  min-height: 400px;
+}
+.containerY img {
+  width: 100%;
+}
+.containerY ul {
+  list-style: none;
+}
+.containerY ul li {
+  text-align: center;
+  width: 170px;
+  height: 40px;
+  margin-bottom: 20px;
+  line-height: 40px;
+}
+.containerY ul li a {
+  text-decoration: none;
+  display: inline-block;
+  width: 170px;
+  height: 40px;
+  border-radius: 20px;
+  font-size: 24px;
+  color: #333333;
+  background-size: cover;
+}
+.containerY ul li a span {
+  display: inline-block;
+  width: 31px;
+  height: 32px;
+  background-repeat: no-repeat;
+  background-position: left bottom;
+}
+.containerY_ul {
+  width: 30%;
+  height: 400px;
+  margin-top: 100px;
+  margin-left: 10%;
+}
+.containerY_con {
+  width: 50%;
+  height: 400px;
+}
+.containerY_con img {
+  height: auto;
+  width: 200px;
+}
+.ah {
+  color: #FFFFFF;
+}
+.star {
+  background-image: url(../img/class/star.png);
+}
+.screen {
+  background-image: url(../img/class/screen.png);
+}
+.tip {
+  background-image: url(../img/class/tip.png);
+}
+.doctor {
+  background-image: url(../img/class/doctor.png);
+}
+html {
+  overflow: hidden;
+}

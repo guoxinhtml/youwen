@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/style.css"/>
+		<link rel="stylesheet" type="text/css" href="css/ywkt.css"/>
+		<link rel="stylesheet" href="css/animate.css" />
+		<script src="js/jquery-1.11.1.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/wow.min.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+		<div id="left">
+			<ul>
+				<li id="weixin"><img src="img/wechatcode.png"/></li>
+				<li><img src="img/lineserver.png"/></li>
+				<li><img src="img/backtop.png" id="goTop"/></li>
+			</ul>
+			<div class="pic_dpn">
+				<img src="img/codepic.png"/>
+			</div>
+		</div>
+		<div class="mask dpn"></div>
+			<div class="mask_con dpn">
+				<div class="mask_con1 fl">
+					<span>超小组</span><span>分层次</span><span>强互动</span>
+					<p>全流程强化中小学生学习动力</p> 
+				</div>
+				<span id="close">x</span>
+				<div class="mask_con2 fl">
+					<form method="post">
+						<p><input type="" name="" id="" placeholder="姓名" /></p>
+						<p><input type="" name="" id="" placeholder="手机号" /></p>
+						<div class="mask3">
+							<select id="leibie">
+								<option value="0">小学</option>
+								<option value="1">小升初</option>
+								<option value="2">初中</option>
+								<option value="3">中考冲刺</option>
+								<option value="4">高考</option>
+								<option value="5">高考冲刺</option>
+							</select>
+							<select>
+								<option value="0">一年级</option>
+								<option value="1">二年级</option>
+								<option value="2">三年级</option>
+								<option value="3">四年级</option>
+								<option value="4">五年级</option>
+							</select>
+							<select>
+								<option value="0">语文</option>
+								<option value="1">数学</option>
+								<option value="2">英语</option>
+							</select>
+						</div>
+						<input type="submit" value="免费预约" class="mask4"/>
+					</form>
+				</div>
+			</div>
+		<div id="header">
+			<div class="container">
+				<img src="img/logo.png" class="header_img"/>
+				<ul class="header_nav">
+					<li><a href="youwen.html">首页</a></li>
+					<li><a href="jxln.html">教学理念</a></li>
+					<li><a href="kctx.html">课程体系</a></li>
+					<li><a href="szll.html">师资力量</a></li>
+					<li><a href="xxgc.html">学习过程</a></li>
+					<li><a href="ywkt.html" id="fira">优问课堂</a></li>
+					<li><a href="zxydy.html">在线一对一</a></li>
+					<span><img src="img/phone.png"/>电话:400-777-5029</span>
+				</ul>
+			</div>
+		</div>
+		<div class="footer">
+			<form class="footer_container">
+				<p class="fl"><input type="text" name="" id="" placeholder="姓名" /></p>
+				<p class="fl"><input type="text" name="" id="" placeholder="手机号码" /></p>
+				<select id="leibie" class="fl">
+					<option value="0">小学</option>
+					<option value="1">小升初</option>
+					<option value="2">初中</option>
+					<option value="3">中考冲刺</option>
+					<option value="4">高考</option>
+					<option value="5">高考冲刺</option>
+				</select>
+				<select name="grade" class="fl">
+					<option value="0">一年级</option>
+					<option value="1">二年级</option>
+					<option value="2">三年级</option>
+					<option value="3">四年级</option>
+					<option value="4">五年级</option>
+				</select>
+				<select name="kemu" class="fl">
+					<option value="0">语文</option>
+					<option value="1">数学</option>
+					<option value="2">英语</option>
+				</select>
+				<input type="submit" name="" id="" value="0元免费试听" class="freest banner_1">
+			</form>
+		</div>
+		<div class="containerY">
+			<div class="empty"></div>
+			<p class="wow pulse"><img src="img/class/abcdefg.png"/></p>
+			<div class="containerY_ul fl">
+				<ul>
+					<li><a href="#"><span class="star"></span>热门推荐</a></li>
+					<li><a href="#"><span class="doctor"></span>优问咨询</a></li>
+					<li><a href="#"><span class="screen"></span>学生课堂</a></li>
+					<li><a href="#"><span class="tip"></span>家长课堂</a></li>
+				</ul>
+			</div>
+			<div class="containerY_con fl">
+				<div>
+					<img src="img/class/news1.png"/>
+				</div>
+				<div class="dpn wow slideInRight"><img src="img/one/dp.png"/></div>
+				<div class="dpn wow bounceInDown"><img src="img/logo.png"/></div>
+				<div class="dpn"><img src="img/mtk_boy.png"/></div>
+			</div>
+		</div>
+	</body>
+	<script type="text/javascript">
+			new WOW().init();
+			$("#weixin").mouseenter(function(){
+				$(".pic_dpn").css("display","block")
+			}).mouseleave(function(){
+				$(".pic_dpn").css("display","none")
+			});
+			$("#goTop").mouseenter(function(){
+				$(this).attr("src","img/gotop.png")
+			}).mouseleave(function(){
+				$(this).attr("src","img/backtop.png")
+			});
+			$(".containerY_ul a:first").mouseover(function(){
+				$(this).addClass("ah").siblings().removeClass();
+				$(this).css("background-image","url(../优问/郭鑫/img/class/star1.png)").children("span").css("background","transparent");
+			}).mouseout(function(){
+				$(this).css("background-image","").children("span").css({"background-image":"url(img/class/star.png)","background-repeat": "no-repeat",
+                    "background-position": "left bottom"});
+			}).click(function(){
+				$(".containerY_con div").eq(0).show().siblings().hide();
+				$(this).css("background-image","url(../优问/郭鑫/img/class/star1.png)").children("span").css("background","transparent");
+			});
+			$(".containerY_ul li:nth-of-type(2) a").mouseover(function(){
+				$(this).addClass("ah").siblings().removeClass();
+				$(this).css("background-image","url(../优问/郭鑫/img/class/doctor1.png)").children("span").css("background","transparent");
+			}).mouseout(function(){
+				$(this).css("background-image","").children("span").css({"background-image":"url(img/class/doctor.png)","background-repeat": "no-repeat",
+                    "background-position": "left bottom"});
+			}).click(function(){
+				$(".containerY_con div").eq(1).show().siblings().hide();
+			});
+			$(".containerY_ul li:nth-of-type(3) a").mouseover(function(){
+				$(this).addClass("ah").siblings().removeClass();
+				$(this).css("background-image","url(../优问/郭鑫/img/class/tip1.png)").children("span").css("background","transparent");
+			}).mouseout(function(){
+				$(this).css("background-image","").children("span").css({"background-image":"url(img/class/tip.png)","background-repeat": "no-repeat",
+                    "background-position": "left bottom"});
+			}).click(function(){
+				$(".containerY_con div").eq(2).show().siblings().hide();
+			});
+			$(".containerY_ul li:nth-of-type(4) a").mouseover(function(){
+				$(this).addClass("ah").siblings().removeClass();
+				$(this).css("background-image","url(../优问/郭鑫/img/class/screen1.png)").children("span").css("background","transparent");
+			}).mouseout(function(){
+				$(this).css("background-image","").children("span").css({"background-image":"url(img/class/screen.png)","background-repeat": "no-repeat",
+                    "background-position": "left bottom"});
+			}).click(function(){
+				$(".containerY_con div").eq(3).show().siblings().hide();
+			});
+			$(".banner_1").click(function(){
+				showModel();
+			});
+			function showModel(){
+				$(".mask_con").fadeIn();
+				$(".mask").fadeIn();
+				var vW=$(window).width();
+				var vH=$(window).height();
+				var mW=$(".mask_con").outerWidth();
+				var mH=$(".mask_con").outerHeight();
+				$(".mask_con").css({'left':(vW-mW)/2+"px",'top':(vH-mH)/2+"px"});
+			}
+			$("#close").click(function(){
+				$(".mask_con").fadeOut();
+				$(".mask").fadeOut();
+			});
+	</script>
+</html>
